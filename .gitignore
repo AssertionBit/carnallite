@@ -1,0 +1,10 @@
+# Project folders
+bin
+lib
+
+# Other editors
+.idea
+.fleet
+
+# Mac os files
+.DS_Store

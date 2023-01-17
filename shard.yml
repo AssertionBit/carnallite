@@ -1,0 +1,29 @@
+name: carnallite
+version: 0.1.0
+
+authors:
+  - AssertionBit <assertionbit@icloud.com>
+
+targets:
+  carnallite:
+    main: src/carnallite.cr
+
+crystal: 1.7.0
+
+description: |
+   LSP for crystal programming languages for editors of any type. Provides
+   better project support monitoring and support with any libraries that
+   provided.
+
+dependencies:
+  crayon:
+    github: molovo/crayon
+    version: "~> 0.1"
+  pg:
+    github: will/crystal-pg
+    version: "~> 0.5"
+
+development_dependencies:
+  crystalline:
+    github: elbywan/crystalline
+

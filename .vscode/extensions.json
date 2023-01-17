@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "redhat.vscode-yaml",
+        "matthewmcgarvey.crystal-spec-vscode",
+        "jgillich.crystal-lang-fixed",
+        "kofno.crystal-ide"
+    ]
+}
