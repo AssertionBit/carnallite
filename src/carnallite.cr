@@ -1,7 +1,9 @@
 require "./libraries"
+require "./server"
 
 module Carnallite
   VERSION = "0.1.0"
 
-  puts "Hello, world!"
+  Libraries.info
+  Server.info
 end

@@ -40,5 +40,13 @@ module Carnallite
     # but please make sure that other options are not awailable for system *(prefer productivity, instead of lazyness)*.
     module Libraries
       VERSION = "0.0.0"
+
+      def self.info
+        printf "Loading Libraries files\n"
+        printf "-----------------------\n"
+        printf "Library is responsilbe for work with libraries defenitions\n"
+        printf "Version: #{VERSION}\n"
+        puts
+      end
     end
 end
