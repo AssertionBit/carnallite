@@ -1,3 +1,5 @@
+require "./libraries"
+
 module Carnallite
   VERSION = "0.1.0"
 

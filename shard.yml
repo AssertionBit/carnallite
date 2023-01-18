@@ -19,7 +19,9 @@ dependencies:
   crayon:
     github: molovo/crayon
     version: "~> 0.1"
-  pg:
+  crest:
+    github: mamantoha/crest
+  pg: # Leave like that for better time, caching of data maybe?
     github: will/crystal-pg
     version: "~> 0.5"
 

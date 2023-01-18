@@ -8,6 +8,10 @@ shards:
     git: https://github.com/molovo/crayon.git
     version: 0.1.0
 
+  crest:
+    git: https://github.com/mamantoha/crest.git
+    version: 1.3.7
+
   crystalline:
     git: https://github.com/elbywan/crystalline.git
     version: 0.8.0
@@ -15,6 +19,14 @@ shards:
   db:
     git: https://github.com/crystal-lang/crystal-db.git
     version: 0.11.0
+
+  http-client-digest_auth:
+    git: https://github.com/mamantoha/http-client-digest_auth.git
+    version: 0.6.0
+
+  http_proxy:
+    git: https://github.com/mamantoha/http_proxy.git
+    version: 0.9.0
 
   lsp:
     git: https://github.com/elbywan/crystal-lsp.git
