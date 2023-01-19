@@ -1,9 +1,11 @@
+require "log"
+
+require "./setup"
 require "./libraries"
 require "./server"
 
 module Carnallite
-  VERSION = "0.1.0"
+  VERSION = "0.0.0"
 
-  Libraries.info
-  Server.info
+  Log.for("carnallite").info {"Starting Carnallite of version: #{VERSION}"}
 end

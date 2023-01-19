@@ -1,4 +1,6 @@
-require "./libraries/package.cr"
+require "log"
+
+require "./libraries/*"
 
 module Carnallite
 
@@ -41,12 +43,6 @@ module Carnallite
     module Libraries
       VERSION = "0.0.0"
 
-      def self.info
-        printf "Loading Libraries files\n"
-        printf "-----------------------\n"
-        printf "Library is responsilbe for work with libraries defenitions\n"
-        printf "Version: #{VERSION}\n"
-        puts
-      end
+      Log.debug { "Loading libraries module with version: #{VERSION}" }
     end
 end

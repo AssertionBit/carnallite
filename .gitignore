@@ -1,7 +1,6 @@
 # Project folders & files
 bin
 lib
-docs
 .env
 .env.*
 !.env.example
